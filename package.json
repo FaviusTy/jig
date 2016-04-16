@@ -19,10 +19,10 @@
   "main": "index.js",
   "private": true,
   "scripts": {
-    "_build:js": "globify \"src/**/*.js\" -u \"**/_*.js\" -o \"public/assets\"",
+    "_build:js": "globify \"src/**/!(_)*.js\" -o \"public/assets\"",
     "_mkdirp:assets": "mkdirp public/assets",
     "_serve": "http-server -o",
-    "_watch:js": "globify \"src/**/*.js\" -u \"**/_*.js\" -o \"public/assets\" -w -d -v",
+    "_watch:js": "globify \"src/**/!(_)*.js\" -o \"public/assets\" -w -d -v",
     "fixpack": "fixpack",
     "start": "npm-run-all _mkdirp:assets -p _watch:* _serve",
     "test": "echo \"Error: no test specified\" && exit 1"
