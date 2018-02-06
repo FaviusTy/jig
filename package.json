@@ -13,27 +13,22 @@
     "http-server": "0.11.1",
     "mkdirp": "0.5.1",
     "npm-run-all": "4.1.2",
-    "postcss-apply": "0.8.0",
+    "postcss": "^6.0.17",
     "postcss-cli": "4.1.1",
-    "postcss-custom-properties": "6.2.0",
+    "postcss-cssnext": "^3.1.0",
     "postcss-import": "11.0.0",
-    "postcss-nested": "3.0.0",
     "prettier": "^1.10.2",
     "webpack": "^4.0.0-beta.0",
-    "webpack-cli": "^2.0.4"
+    "webpack-cli": "^2.0.4",
+    "webpack-dev-server": "^3.0.0-alpha6"
   },
   "keywords": [],
   "license": "WTFPL",
   "main": "index.js",
   "private": true,
   "scripts": {
-    "_build:css": "postcss -c .postcssrc.json",
-    "_build:js": "globar \"src/**/!(_)*.js\" -o \"public/assets\"",
-    "_mkdirp:assets": "mkdirp public/assets",
-    "_serve": "http-server -o",
-    "_watch:css": "postcss -c .postcssrc.json -w",
-    "_watch:js": "globar \"src/**/!(_)*.js\" -o \"public/assets\" -w -d -v",
-    "start": "npm-run-all _mkdirp:assets -p _watch:* _serve",
+    "build": "webpack-cli --mode=production",
+    "serve": "webpack-dev-server --mode=development",
     "test": "echo \"Error: no test specified\" && exit 1"
   }
 }
