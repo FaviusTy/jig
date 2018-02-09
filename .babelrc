@@ -1,0 +1,4 @@
+{
+  "presets": ["@babel/preset-react", ["@babel/preset-env", { "module": false }]],
+  "plugins": ["@babel/plugin-proposal-object-rest-spread", ["module-resolver", { "root": "./src" }]]
+}
