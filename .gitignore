@@ -1,4 +1,4 @@
-public/assets
+dist/**/*.js
 
 # Created by .ignore support plugin (hsz.mobi)
 ### Windows template
