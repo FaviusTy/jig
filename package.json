@@ -25,7 +25,7 @@
   "main": "index.js",
   "private": true,
   "scripts": {
-    "prepare": "snowpack",
+    "prepare": "snowpack --clean",
     "build": "babel src --out-dir statics --extensions '.ts','.tsx'",
     "assets": "sync-glob 'src/assets/**/*' statics",
     "serve": "serve statics",
