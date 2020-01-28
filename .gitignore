@@ -1,4 +1,5 @@
-dist/**/*.js
+web_modules/
+statics/
 
 # Created by .ignore support plugin (hsz.mobi)
 ### Windows template

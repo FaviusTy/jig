@@ -1,10 +1,5 @@
-const path = require('path')
-const cwd = process.cwd()
+process.env.BABEL_ENV = "production";
 
-module.exports = (env, argv) =>
-  require('./.webpack')(env, argv, {
-    entry: path.resolve(cwd, 'src'),
-    output: {
-      path: path.resolve(cwd, 'dist'),
-    },
-  })
+module.exports = {
+  mode: process.env.NODE_ENV || "production"
+};
