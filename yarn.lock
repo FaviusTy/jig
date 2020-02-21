@@ -991,10 +991,10 @@
   dependencies:
     find-package-json "1.2.0"
 
-"@favi_ty/babel-plugin-esm-url-resolver@1.2.1":
-  version "1.2.1"
-  resolved "https://registry.yarnpkg.com/@favi_ty/babel-plugin-esm-url-resolver/-/babel-plugin-esm-url-resolver-1.2.1.tgz#c65c9d5d6648e8aabc76ef51552e482b1088ff05"
-  integrity sha512-R52zfVGJZQIOGcuX2RF4TcdaayMacSMjQ3qLu/Gtku4NcDEVx7g4dZVqSnetMWkYUT4UoGy8vLQHO0L6phoEIg==
+"@favi_ty/babel-plugin-esm-url-resolver@1.2.3":
+  version "1.2.3"
+  resolved "https://registry.yarnpkg.com/@favi_ty/babel-plugin-esm-url-resolver/-/babel-plugin-esm-url-resolver-1.2.3.tgz#f223b9914c56987bec95a2cfe929cfedb8520eba"
+  integrity sha512-bk6a20JvjupMI0k4kjzq6b+zayB3VxPu+vPszMQVqGNRpFADjlOLfyP/bz1rFQRQOEYt7jprKCsZv3IqsLLjMw==
 
 "@reactesm/react-dom@0.1.1":
   version "0.1.1"
