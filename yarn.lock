@@ -984,10 +984,10 @@
     lodash "^4.17.13"
     to-fast-properties "^2.0.0"
 
-"@favi_ty/babel-plugin-esm-pikacdn@1.0.1":
-  version "1.0.1"
-  resolved "https://registry.yarnpkg.com/@favi_ty/babel-plugin-esm-pikacdn/-/babel-plugin-esm-pikacdn-1.0.1.tgz#25ebc798365ebac712a1f43afb83bb08c92faee8"
-  integrity sha512-X/gXWwxAKaKPCYDAXuSSZAY2oAP66en9ZdtVTw2klWw9NW7r3RCofs1EtamHtvCoelsYElC+3KanZv4MyZ0FRw==
+"@favi_ty/babel-plugin-esm-pikacdn@1.0.2":
+  version "1.0.2"
+  resolved "https://registry.yarnpkg.com/@favi_ty/babel-plugin-esm-pikacdn/-/babel-plugin-esm-pikacdn-1.0.2.tgz#3205dfc83d93ec16e1676d21cc860b2f0f8d7006"
+  integrity sha512-Qgfw0rkc2UmcMHv4gT8NgBkU7I/ubj8b38o38ngtuZJXNOvx9AK0CDlKLtOunBwQ4bUBfUt6lEfMjxnyh1T3Gw==
   dependencies:
     find-package-json "1.2.0"
 
