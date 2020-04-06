@@ -11,7 +11,7 @@
     "@favi_ty/babel-plugin-esm-pikacdn": "1.0.1",
     "@favi_ty/babel-plugin-esm-url-resolver": "1.2.1",
     "babel-loader": "8.0.6",
-    "prettier": "1.19.1",
+    "prettier": "2.0.4",
     "serve": "11.3.0",
     "snowpack": "1.1.2",
     "sync-glob": "1.4.0",
