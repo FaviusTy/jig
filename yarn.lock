@@ -2979,6 +2979,11 @@ fast-url-parser@1.1.3:
   dependencies:
     punycode "^1.3.2"
 
+fd-find@1.0.7:
+  version "1.0.7"
+  resolved "https://registry.yarnpkg.com/fd-find/-/fd-find-1.0.7.tgz#8db695a10865e2d3f1617c1e02779d2ade4dd342"
+  integrity sha512-LFUTzkK+x+WlByq49yTOPK7ypdSckvi9Jtwz3D+asc2l6NlIKNxteTzd8HEbunEVoJZvoWYhh/tFtv23P7+Ujw==
+
 figgy-pudding@^3.5.1:
   version "3.5.1"
   resolved "https://registry.yarnpkg.com/figgy-pudding/-/figgy-pudding-3.5.1.tgz#862470112901c727a0e495a80744bd5baa1d6790"
