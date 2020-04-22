@@ -1206,13 +1206,13 @@
   resolved "https://registry.yarnpkg.com/@favi_ty/babel-plugin-esm-url-resolver/-/babel-plugin-esm-url-resolver-1.2.3.tgz#f223b9914c56987bec95a2cfe929cfedb8520eba"
   integrity sha512-bk6a20JvjupMI0k4kjzq6b+zayB3VxPu+vPszMQVqGNRpFADjlOLfyP/bz1rFQRQOEYt7jprKCsZv3IqsLLjMw==
 
-"@rollup/plugin-commonjs@^11.0.0":
-  version "11.0.1"
-  resolved "https://registry.yarnpkg.com/@rollup/plugin-commonjs/-/plugin-commonjs-11.0.1.tgz#6056a6757286901cc6c1599123e6680a78cad6c2"
-  integrity sha512-SaVUoaLDg3KnIXC5IBNIspr1APTYDzk05VaYcI6qz+0XX3ZlSCwAkfAhNSOxfd5GAdcm/63Noi4TowOY9MpcDg==
+"@rollup/plugin-commonjs@~11.0.0":
+  version "11.0.2"
+  resolved "https://registry.yarnpkg.com/@rollup/plugin-commonjs/-/plugin-commonjs-11.0.2.tgz#837cc6950752327cb90177b608f0928a4e60b582"
+  integrity sha512-MPYGZr0qdbV5zZj8/2AuomVpnRVXRU5XKXb3HVniwRoRCreGlf5kOE081isNWeiLIi6IYkwTX9zE0/c7V8g81g==
   dependencies:
     "@rollup/pluginutils" "^3.0.0"
-    estree-walker "^0.6.1"
+    estree-walker "^1.0.1"
     is-reference "^1.1.2"
     magic-string "^0.25.2"
     resolve "^1.11.0"
@@ -5432,16 +5432,16 @@ snapdragon@^0.8.1:
     source-map-resolve "^0.5.0"
     use "^3.1.0"
 
-snowpack@1.7.0:
-  version "1.7.0"
-  resolved "https://registry.yarnpkg.com/snowpack/-/snowpack-1.7.0.tgz#1276f8402c3dd8a0502ca7e6f87930a33b5f1841"
-  integrity sha512-2k3aR2ceMw6xwktHOJysoc+AD1lPyoHP9gWE3WGx64xB+idSVS9CNA1+rvhaRN620FPcKYDONU+M08RVta4TiQ==
+snowpack@1.7.1:
+  version "1.7.1"
+  resolved "https://registry.yarnpkg.com/snowpack/-/snowpack-1.7.1.tgz#fe2af55783efbcf7033efc7c60ab2e7ec8faebe9"
+  integrity sha512-W21f2olHpd73ozcdsoSudoXH9434LhI3q5wOSi5vpS6uz6PLJYyr7a98FjoUtmY2SHXancu9MXvV+2TemSkujA==
   dependencies:
     "@babel/core" "^7.6.4"
     "@babel/plugin-transform-react-jsx" "^7.9.4"
     "@babel/preset-env" "^7.6.3"
     "@babel/types" "^7.6.3"
-    "@rollup/plugin-commonjs" "^11.0.0"
+    "@rollup/plugin-commonjs" "~11.0.0"
     "@rollup/plugin-json" "^4.0.0"
     "@rollup/plugin-node-resolve" "^7.1.0"
     "@rollup/plugin-replace" "^2.1.0"
