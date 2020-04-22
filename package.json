@@ -21,6 +21,7 @@
     "serve": "11.3.0",
     "snowpack": "1.7.0",
     "sync-glob": "1.4.0",
+    "terser": "^4.6.11",
     "typescript": "3.8.3",
     "typesync": "0.6.1",
     "webpack": "4.42.1",
@@ -33,6 +34,7 @@
   "scripts": {
     "prepare": "snowpack --clean",
     "build": "babel src --out-dir statics --extensions '.ts','.tsx'",
+    "minify": "fd . './statics' -e js -x npx terser {} -o {}",
     "assets": "sync-glob 'src/assets/**/*' statics",
     "serve": "serve statics",
     "test": "echo \"Error: no test specified\" && exit 1"
