@@ -13,7 +13,7 @@
     "@types/babel__core": "7.1.7",
     "@types/babel__preset-env": "7.9.0",
     "@types/prettier": "2.0.0",
-    "@types/react": "16.9.34",
+    "@types/react": "16.9.35",
     "@types/react-dom": "16.9.6",
     "@types/webpack": "4.41.12",
     "babel-loader": "8.1.0",
