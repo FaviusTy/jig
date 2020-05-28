@@ -20,7 +20,7 @@
     "fd-find": "1.0.7",
     "prettier": "2.0.5",
     "serve": "11.3.0",
-    "snowpack": "1.7.1",
+    "snowpack": "2.0.2",
     "sync-glob": "1.4.0",
     "terser": "^4.6.11",
     "typescript": "3.8.3",
