@@ -4,8 +4,8 @@
   "version": "0.0.1",
   "devDependencies": {
     "@babel/cli": "7.10.1",
-    "@babel/core": "7.10.1",
-    "@babel/preset-env": "7.10.1",
+    "@babel/core": "7.10.2",
+    "@babel/preset-env": "7.10.2",
     "@babel/preset-react": "7.10.1",
     "@babel/preset-typescript": "7.10.1",
     "@favi_ty/babel-plugin-esm-pikacdn": "1.0.2",
