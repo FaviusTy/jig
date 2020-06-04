@@ -23,7 +23,7 @@
     "snowpack": "2.0.2",
     "sync-glob": "1.4.0",
     "terser": "^4.7.0",
-    "typescript": "3.9.3",
+    "typescript": "3.9.5",
     "typesync": "0.6.1",
     "webpack": "4.43.0",
     "webpack-cli": "3.3.11"
