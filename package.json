@@ -42,9 +42,20 @@
     "serve": "serve statics",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
+  "snowpack": {
+    "install": [
+      "goober/src/index.js"
+    ],
+    "installOptions": {
+      "alias": {
+        "goober": "goober/src/index.js"
+      }
+    }
+  },
   "dependencies": {
     "core-js": "3.6.5",
     "events-polyfill": "2.1.2",
+    "goober": "1.8.0",
     "react": "16.13.1",
     "react-dom": "16.13.1",
     "whatwg-fetch": "3.0.0"
