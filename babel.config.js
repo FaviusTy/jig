@@ -23,8 +23,15 @@ module.exports = {
           corejs: 3,
           targets: {
             ie: 11
-          }
+          },
+          exclude: [
+             //async-awaitをgeneratorに変換すると正常に動かないエッジケースを経験している
+            "@babel/plugin-proposal-async-generator-functions"
+          ]
         }]
+      ],
+      plugins: [
+        "babel-plugin-transform-async-to-promises"
       ]
     }
   },
