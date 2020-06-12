@@ -1,2 +1,5 @@
-// production用はcore-jsなどをインポート刷る予定
+// レガシーブラウザ用のエントリファイル
+import "core-js/stable"
+import "whatwg-fetch"
+import "events-polyfill"
 import "./index";
