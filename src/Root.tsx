@@ -1,10 +1,6 @@
 import React, { memo } from "react";
-import {css} from "goober";
+import Entrans from "./components/page/Entrans";
 
-const style = css`
-width: 100%;
-`
-
-export default memo(function Root(props) {
-  return <div className={style}>Hello World!</div>;
+export default memo(function Root() {
+  return <Entrans />;
 });

@@ -21,7 +21,7 @@
     "babel-loader": "8.1.0",
     "babel-plugin-transform-async-to-promises": "^0.8.15",
     "fd-find": "1.0.7",
-    "prettier": "2.0.5",
+    "prettier": "^2.0.5",
     "serve": "11.3.2",
     "snowpack": "2.4.0",
     "sync-glob": "1.4.0",
