@@ -3322,10 +3322,10 @@ globals@^11.1.0:
   resolved "https://registry.yarnpkg.com/globals/-/globals-11.12.0.tgz#ab8795338868a0babd8525758018c2a7eb95c42e"
   integrity sha512-WOBp/EEGUiIsJSp7wcv/y6MO+lV9UoncWqxuFfm8eBwzWNgyfBd6Gz+IeKQ9jCmyhoH99g15M3T+QaVHFjizVA==
 
-goober@1.8.0:
-  version "1.8.0"
-  resolved "https://registry.yarnpkg.com/goober/-/goober-1.8.0.tgz#ed97e40e87300c6d1c8304a9d4b0f1398ff7669a"
-  integrity sha512-9ZFoOkBccexjqIgcwlhq7C/eCSkgTZX0BdNUkOnBFLedrJgo3R8lp9ckd/qqtngtF/JDyXSxJzwMU98kNjZ4Mw==
+goober@2.0.13:
+  version "2.0.13"
+  resolved "https://registry.yarnpkg.com/goober/-/goober-2.0.13.tgz#91d5e10e4f5ecbb70d8ef7223fe7e39d377d9818"
+  integrity sha512-ia68VcSmprfp8wLeqmpx0qJ4icKZ5tAAUT2le0SlZgyW1uM+2zGzwLzCg67A/HtuawQ+DkXCuxNpzp1qx2xNLQ==
 
 got@^11.1.4:
   version "11.1.4"
