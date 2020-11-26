@@ -2,7 +2,7 @@ module.exports = {
   babelrcRoots: [".", "node_modules"],
   presets: [
     ["@babel/preset-env", { modules: false }],
-    "@babel/preset-react",
+    ["@babel/preset-react", { runtime: "automatic" }],
     "@babel/preset-typescript",
   ],
   plugins: [
@@ -13,7 +13,7 @@ module.exports = {
     development: {
       plugins: [
         "@favi_ty/babel-plugin-esm-url-resolver",
-        "@favi_ty/babel-plugin-esm-pikacdn",
+        ["@snowpack/babel-plugin-package-import", {webModulesDir: "statics/web_modules"}],
       ],
     },
     legacy: {

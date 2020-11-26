@@ -1,4 +1,4 @@
-import React, { memo } from "react";
+import { memo } from "react";
 import c from "../../className";
 import { RihgtAligned, Centering } from "../styles/flex";
 import { FullSize } from "../styles/sizing";

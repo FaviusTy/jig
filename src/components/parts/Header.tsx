@@ -1,4 +1,4 @@
-import React, { memo } from "React";
+import { memo } from "react";
 import { css } from "goober";
 import c from "../../className";
 
