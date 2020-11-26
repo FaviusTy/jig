@@ -38,9 +38,10 @@
   "private": true,
   "scripts": {
     "prepare": "snowpack install",
-    "build": "babel src --out-dir statics --extensions '.ts','.tsx'",
+    "build": "babel src --out-dir statics --extensions .ts,.tsx",
     "minify": "fd . './statics' -e js -x npx terser {} -o {}",
     "assets": "sync-glob 'src/assets/**/*' statics",
+    "watch": "babel src -w --out-dir statics --extensions .ts,tsx",
     "serve": "serve statics",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
