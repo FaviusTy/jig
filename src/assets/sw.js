@@ -1,14 +1,12 @@
-importScripts(
-  "https://storage.googleapis.com/workbox-cdn/releases/4.3.1/workbox-sw.js"
-);
+importScripts('https://storage.googleapis.com/workbox-cdn/releases/5.1.2/workbox-sw.js');
 
-self.addEventListener("install", event => {
-  event.waitUntil(self.skipWaiting());
-});
+// self.addEventListener("install", event => {
+//   event.waitUntil(self.skipWaiting());
+// });
 
-self.addEventListener("activate", event => {
-  event.waitUntil(self.clients.claim());
-});
+// self.addEventListener("activate", event => {
+//   event.waitUntil(self.clients.claim());
+// });
 
 workbox.routing.registerRoute(/.+\.js$/, new workbox.strategies.NetworkFirst());
 workbox.routing.registerRoute(
