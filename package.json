@@ -19,7 +19,7 @@
     "@types/react": "17.0.0",
     "@types/react-dom": "17.0.0",
     "@types/webpack": "4.41.25",
-    "babel-loader": "8.2.1",
+    "babel-loader": "8.2.2",
     "babel-plugin-transform-async-to-promises": "^0.8.15",
     "fd-find": "1.0.7",
     "prettier": "^2.2.0",
