@@ -1270,7 +1270,7 @@
   resolved "https://registry.yarnpkg.com/@sindresorhus/is/-/is-4.0.0.tgz#2ff674e9611b45b528896d820d3d7a812de2f0e4"
   integrity sha512-FyD2meJpDPjyNQejSjvnhpgI/azsQkA4lGbuu5BQZfjvJ9cbRZXzeWL2HceCekW4lixO9JPesIIQkSoLjeJHNQ==
 
-"@snowpack/babel-plugin-package-import@^1.1.6":
+"@snowpack/babel-plugin-package-import@1.1.6":
   version "1.1.6"
   resolved "https://registry.yarnpkg.com/@snowpack/babel-plugin-package-import/-/babel-plugin-package-import-1.1.6.tgz#83e57de19e95a79f347152faf2a151c49a12b337"
   integrity sha512-CqoYabpcz/dW9+hM8vWULogFDElZj/UYkjw+LBY2R8AU1dntFxDaAeKgG3GFBItwMUcw2Vn72SGAan8gA9HFhw==
@@ -1920,7 +1920,7 @@ axios@^0.21.0:
   dependencies:
     follow-redirects "^1.10.0"
 
-babel-loader@^8.2.2:
+babel-loader@8.2.2:
   version "8.2.2"
   resolved "https://registry.yarnpkg.com/babel-loader/-/babel-loader-8.2.2.tgz#9363ce84c10c9a40e6c753748e1441b60c8a0b81"
   integrity sha512-JvTd0/D889PQBtUXJ2PXaKU/pjZDMtHA9V2ecm+eNRmmBCMR09a+fmpGTNwnJtFmFl5Ei7Vy47LjBb+L0wQ99g==
@@ -1937,7 +1937,7 @@ babel-plugin-dynamic-import-node@^2.3.3:
   dependencies:
     object.assign "^4.1.0"
 
-babel-plugin-transform-async-to-promises@^0.8.15:
+babel-plugin-transform-async-to-promises@0.8.15:
   version "0.8.15"
   resolved "https://registry.yarnpkg.com/babel-plugin-transform-async-to-promises/-/babel-plugin-transform-async-to-promises-0.8.15.tgz#13b6d8ef13676b4e3c576d3600b85344bb1ba346"
   integrity sha512-fDXP68ZqcinZO2WCiimCL9zhGjGXOnn3D33zvbh+yheZ/qOrNVVDDIBtAaM3Faz8TRvQzHiRKsu3hfrBAhEncQ==
@@ -4845,7 +4845,7 @@ preserve@^0.2.0:
   resolved "https://registry.yarnpkg.com/preserve/-/preserve-0.2.0.tgz#815ed1f6ebc65926f865b310c0713bcb3315ce4b"
   integrity sha1-gV7R9uvGWSb4ZbMQwHE7yzMVzks=
 
-prettier@^2.2.1:
+prettier@2.2.1:
   version "2.2.1"
   resolved "https://registry.yarnpkg.com/prettier/-/prettier-2.2.1.tgz#795a1a78dd52f073da0cd42b21f9c91381923ff5"
   integrity sha512-PqyhM2yCjg/oKkFPtTGUojv7gnZAoG80ttl45O6x2Ug/rMJw4wcc9k6aaf2hibP7BGVCCM33gZoGjyvt9mm16Q==
@@ -5510,7 +5510,7 @@ snapdragon@^0.8.1:
     source-map-resolve "^0.5.0"
     use "^3.1.0"
 
-snowpack@^3.0.0-rc.1:
+snowpack@3.0.0-rc.1:
   version "3.0.0-rc.1"
   resolved "https://registry.yarnpkg.com/snowpack/-/snowpack-3.0.0-rc.1.tgz#32c78f9835e2da6dbc4987f0722e37779ff025e3"
   integrity sha512-8BBT+jn2d0qcv2rDjg8OqaqQ0eG+CpLrtMHO6dRK2+4RdEnb63DsF4k5pZkd1m1znpk2MdPwUrbQNGPwFFBjgw==
