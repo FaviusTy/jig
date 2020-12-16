@@ -1,5 +1,6 @@
 web_modules/
 statics/
+.history/
 
 # Created by .ignore support plugin (hsz.mobi)
 ### Windows template
