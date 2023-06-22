@@ -15,7 +15,7 @@
     "@snowpack/babel-plugin-package-import": "^1.1.6",
     "@types/babel__core": "7.1.12",
     "@types/babel__preset-env": "7.9.1",
-    "@types/prettier": "2.1.5",
+    "@types/prettier": "2.7.3",
     "@types/react": "17.0.0",
     "@types/react-dom": "17.0.0",
     "@types/webpack": "4.41.25",
